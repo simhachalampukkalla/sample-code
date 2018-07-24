@@ -1,0 +1,113 @@
+body{
+
+
+background-image: url("tm-home-img.jpg");
+
+background-repeat: no-repeat, repeat;
+
+background-position: right center;
+}
+
+
+div.trans{
+ 
+    margin-left:auto;
+    margin-right:auto;
+   
+    top: 0px;
+    width:1000px;
+    
+    position:relative;
+   
+
+}
+
+div.left{
+ 
+  
+    background-color: initial;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 5px;
+   width: 100%;
+   background-color: initial;
+   color: white;
+   text-align: center;
+}
+
+#wrapper {
+  margin-top:30px;
+  width:100%;
+  clear:both;
+}
+#first {
+  
+  background-color:initial;
+ 
+  width:32%;
+  height:30%;
+  float:left;
+  border-style: solid;
+    border-color: coral;
+}
+#second { 
+ 
+  background-color:initial;
+  width:34.5%;
+  height:30%;
+  float:left;
+   border-style: solid;
+    border-color: coral;
+}
+#third {
+  background-color:initial;
+  width:32%;
+  height:30%;
+  float:left;
+ border-style: solid;
+    border-color: coral;
+}
+#fourth {
+  background-color:initial;
+  width:99.5%;
+  height:33%;
+  float:left;
+ border-style: solid;
+    border-color: coral;
+   color:white;
+}
+img {
+  max-width: 100%;
+}
+
+a:hover{    
+background-color:blue;
+color:white;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 0px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
